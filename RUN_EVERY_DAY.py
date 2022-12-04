@@ -1,18 +1,12 @@
 from bs4 import BeautifulSoup
 import html2text
 import requests
-import sys
 from os import path
 
-# Process arguments
-"""
-if (len(sys.argv) != 4):
-	print("Usage: main.py [year] [day number] [session ID]")
-	exit()"""
 ##################################################################################################
 
 year_number = 2022
-day_number = 1
+day_number = 5
 
 absolute_path = path.dirname(path.abspath(__file__))
 session_id = ""
